@@ -1,0 +1,108 @@
+.App {
+    min-height: 100vh;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 40px;
+    font-size: 16px;
+    background-image: linear-gradient(to right, #dad9e7 0%, rgb(45, 231, 119) 100%);
+  }
+  
+  h1 {
+    color: rgb(255, 255, 255);
+    font-size: 45px;
+    /* text-transform: uppercase; */
+    width: auto;
+    text-align: center;
+    margin: 0;
+  }
+  h2 {
+    font-size: 28px;
+    text-transform: uppercase;
+    margin: 0;
+    margin-bottom: 30px;
+  }
+  input {
+    padding: 10px 15px;
+    font-size: 18px;
+    width: 400px;
+    border-radius: 10px;
+    border-color: none;
+  }
+  
+  table {
+    width: 1000px;
+    border-collapse: separate;
+    border-spacing: 0 1em;
+    border: solid rgb(106, 113, 237) 1px;
+    padding: 10px; 
+    background: rgb(177, 188, 244);
+    border-radius: 15px;
+  }
+  thead {
+    background-color: rgb(44, 44, 44);
+    color: white;
+    text-align: center;
+    height: 50px;
+    font-size: 16px;
+    border-radius: 16px !important;
+  }
+  tbody {
+    text-align: right;
+  }
+  .rank {
+    text-align: center;
+    font-weight: bold;
+  }
+  .logo {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 10%;
+    gap: 10px;
+    align-items: center;
+  }
+  .symbol {
+    text-align: center;
+  }
+  
+  
+  
+  
+  /* defaults */
+  
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
